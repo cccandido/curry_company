@@ -161,7 +161,7 @@ def clean_code ( df ):
 # -----------------INICIO DA ESTRUTURA LÓGICA DO CÓDIGO -----------------------------
 
 # import dataset
-df_original = pd.read_csv('cccandido/curry_company/dataset/train.csv')
+df_original = pd.read_csv('dataset/train.csv')
 
 # limpando os dados
 df = clean_code (df_original)
