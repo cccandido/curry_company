@@ -14,7 +14,7 @@ layout='wide'
 
 #---------------------------------------------------------
 
-df_original = pd.read_csv('cccandido/curry_company/dataset/train.csv')
+df_original = pd.read_csv('dataset/train.csv')
 
 df = df_original
 
