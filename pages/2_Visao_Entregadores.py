@@ -103,7 +103,7 @@ df = df.loc [linhas_selecionadas, :]
 ############## lAYOUT NO STREAMLIT ###############
 # ---------------------------------------------------------------
 
-tab1, tab2, tab3 = st.tabs( ['Visão Gerencial', 'nome', 'nome'] )
+tab1, tab2, tab3 = st.tabs( ['Visão Gerencial', '', ''] )
 
 with tab1:
     with st.container():
